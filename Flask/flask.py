@@ -11,7 +11,7 @@ def report():
   word = request.args.get('word')
   return render_template('report.html', searchingBy = word)
 
-
+print('hello')
 app.run(host='0.0.0.0')
 
   <!-- <section>
